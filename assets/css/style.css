@@ -517,6 +517,8 @@ section {
   text-align: center;
 }
 .card1 {
+  font-size: 28px;
+  font-weight: 600;
   background-color: #f122e7c9; /* Grading background color */
   color: rgb(248, 248, 248);
   border-radius: 20px;
@@ -526,7 +528,9 @@ section {
   width: 300px; /* Adjust width as needed */
 }
 .card2 {
-  background-color: #2ff839c9; /* Grading background color */
+  font-size: 28px;
+  font-weight: 600;
+  background-color: #00ca0aef; /* Grading background color */
   color: rgb(248, 248, 248);
   border-radius: 20px;
   transform: rotate(2deg); /* Rotate edges */
@@ -535,7 +539,9 @@ section {
   width: 300px; /* Adjust width as needed */
 }
 .card3 {
-  background-color: #2ffdfdc9; /* Grading background color */
+  font-size: 28px;
+  font-weight: 600;
+  background-color: #02c4c4f1; /* Grading background color */
   color: rgb(248, 248, 248);
   border-radius: 20px;
   transform: rotate(-2deg); /* Rotate edges */
@@ -790,7 +796,7 @@ amazing section
 .card-container{
 
 margin-top: 50px;
-margin-left: 80px;
+margin-left: 50px;
 margin-bottom: 30px;
 
 }
