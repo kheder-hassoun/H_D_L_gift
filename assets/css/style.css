@@ -509,14 +509,40 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .column {
   max-width: 600px; /* Adjust as needed */
   text-align: center;
 }
-
+.card1 {
+  background-color: #f122e7c9; /* Grading background color */
+  color: rgb(248, 248, 248);
+  border-radius: 20px;
+  transform: rotate(-2deg); /* Rotate edges */
+  margin: 30px;
+  padding: 20px;
+  width: 300px; /* Adjust width as needed */
+}
+.card2 {
+  background-color: #2ff839c9; /* Grading background color */
+  color: rgb(248, 248, 248);
+  border-radius: 20px;
+  transform: rotate(2deg); /* Rotate edges */
+  margin: 30px;
+  padding: 20px;
+  width: 300px; /* Adjust width as needed */
+}
+.card3 {
+  background-color: #2ffdfdc9; /* Grading background color */
+  color: rgb(248, 248, 248);
+  border-radius: 20px;
+  transform: rotate(-2deg); /* Rotate edges */
+  margin: 30px;
+  padding: 20px;
+  width: 300px; /* Adjust width as needed */
+}
 .section-image {
   width: 350px; /* Specific width */
   height: 350px; /* Specific height */
@@ -764,7 +790,7 @@ amazing section
 .card-container{
 
 margin-top: 50px;
-margin-left: 50px;
+margin-left: 80px;
 margin-bottom: 30px;
 
 }
